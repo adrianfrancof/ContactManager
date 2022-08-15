@@ -1,0 +1,1070 @@
+2022-07-04 12:50:12.037  INFO 35940 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 35940 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 12:50:12.037  INFO 35940 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 12:50:12.061  INFO 35940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-04 12:50:12.061  INFO 35940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-04 12:50:12.515  INFO 35940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 12:50:12.521  INFO 35940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 12:50:12.521  INFO 35940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 12:50:12.656  INFO 35940 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 12:50:12.664  INFO 35940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 12:50:12.664  INFO 35940 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 603 ms
+2022-07-04 12:50:12.758 DEBUG 35940 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 12:50:12.800 DEBUG 35940 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 12:50:12.803 DEBUG 35940 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 12:50:12.808 DEBUG 35940 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 12:50:12.812 DEBUG 35940 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 12:50:12.843  INFO 35940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 12:50:12.868  INFO 35940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 12:50:12.873  INFO 35940 --- [restartedMain] com.edutecno.Application                 : Started Application in 1.034 seconds (JVM running for 1.453)
+2022-07-04 12:50:17.880  INFO 35940 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-04 12:50:17.880  INFO 35940 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-04 12:50:17.880 DEBUG 35940 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-07-04 12:50:17.880 DEBUG 35940 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-07-04 12:50:17.880 DEBUG 35940 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-07-04 12:50:17.881 DEBUG 35940 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1174ef4f
+2022-07-04 12:50:17.881 DEBUG 35940 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@661b6c54
+2022-07-04 12:50:17.881 DEBUG 35940 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-07-04 12:50:17.881  INFO 35940 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-04 12:50:17.887 DEBUG 35940 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-04 12:50:17.890 DEBUG 35940 --- [http-nio-8082-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ParameterizableViewController [view="/contactManager"]
+2022-07-04 12:50:17.894 DEBUG 35940 --- [http-nio-8082-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-04 12:50:17.894 DEBUG 35940 --- [http-nio-8082-exec-1] o.s.web.servlet.view.JstlView            : View name '/contactManager', model {}
+2022-07-04 12:50:17.896 DEBUG 35940 --- [http-nio-8082-exec-1] o.s.web.servlet.view.JstlView            : Forwarding to [/views//contactManager.jsp]
+2022-07-04 12:50:18.263 DEBUG 35940 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-04 12:50:33.112 DEBUG 35940 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/contactManager/addContact", parameters={masked}
+2022-07-04 12:50:33.113 DEBUG 35940 --- [http-nio-8082-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#addContact(ModelMap, Contact)
+2022-07-04 12:50:33.125  INFO 35940 --- [http-nio-8082-exec-2] c.edutecno.controller.ContactController  : ejecutando addContact() en el controlador
+2022-07-04 12:50:33.128 DEBUG 35940 --- [http-nio-8082-exec-2] o.s.web.servlet.view.RedirectView        : View name 'redirect:', model {}
+2022-07-04 12:50:33.128 DEBUG 35940 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2022-07-04 12:50:33.133 DEBUG 35940 --- [http-nio-8082-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/contactManager/", parameters={}
+2022-07-04 12:50:33.133 DEBUG 35940 --- [http-nio-8082-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#getContactList(ModelMap)
+2022-07-04 12:50:33.134  INFO 35940 --- [http-nio-8082-exec-3] c.edutecno.controller.ContactController  : ejecutando getContactList() en el controlador
+2022-07-04 12:50:33.134 DEBUG 35940 --- [http-nio-8082-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-04 12:50:33.134 DEBUG 35940 --- [http-nio-8082-exec-3] o.s.web.servlet.view.JstlView            : View name 'contactManager', model {listaContact=[Contact [id=1, nombre=Fulanito, apellidoPaterno=Perez, apellidoMaterno=Simpson, direccion=Santiago, telefono=+56999999999]]}
+2022-07-04 12:50:33.134 DEBUG 35940 --- [http-nio-8082-exec-3] o.s.web.servlet.view.JstlView            : Forwarding to [/views/contactManager.jsp]
+2022-07-04 12:50:33.140 DEBUG 35940 --- [http-nio-8082-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-04 12:50:41.997 DEBUG 35940 --- [http-nio-8082-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/contactManager/addContact", parameters={masked}
+2022-07-04 12:50:41.997 DEBUG 35940 --- [http-nio-8082-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#addContact(ModelMap, Contact)
+2022-07-04 12:50:41.997  INFO 35940 --- [http-nio-8082-exec-4] c.edutecno.controller.ContactController  : ejecutando addContact() en el controlador
+2022-07-04 12:50:41.998 DEBUG 35940 --- [http-nio-8082-exec-4] o.s.web.servlet.view.RedirectView        : View name 'redirect:', model {}
+2022-07-04 12:50:41.998 DEBUG 35940 --- [http-nio-8082-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2022-07-04 12:50:42.003 DEBUG 35940 --- [http-nio-8082-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/contactManager/", parameters={}
+2022-07-04 12:50:42.004 DEBUG 35940 --- [http-nio-8082-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#getContactList(ModelMap)
+2022-07-04 12:50:42.004  INFO 35940 --- [http-nio-8082-exec-5] c.edutecno.controller.ContactController  : ejecutando getContactList() en el controlador
+2022-07-04 12:50:42.004 DEBUG 35940 --- [http-nio-8082-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-04 12:50:42.004 DEBUG 35940 --- [http-nio-8082-exec-5] o.s.web.servlet.view.JstlView            : View name 'contactManager', model {listaContact=[Contact [id=1, nombre=Fulanito, apellidoPaterno=Perez, apellidoMaterno=Simpson, direccion=Santiago, telefono=+56999999999], Contact [id=2, nombre=Fulanito, apellidoPaterno=Perez, apellidoMaterno=Feliciano, direccion=Santiago, telefono=+56999999999]]}
+2022-07-04 12:50:42.004 DEBUG 35940 --- [http-nio-8082-exec-5] o.s.web.servlet.view.JstlView            : Forwarding to [/views/contactManager.jsp]
+2022-07-04 12:50:42.006 DEBUG 35940 --- [http-nio-8082-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-04 12:50:51.532 DEBUG 35940 --- [http-nio-8082-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/contactManager/addContact", parameters={masked}
+2022-07-04 12:50:51.532 DEBUG 35940 --- [http-nio-8082-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#addContact(ModelMap, Contact)
+2022-07-04 12:50:51.532  INFO 35940 --- [http-nio-8082-exec-6] c.edutecno.controller.ContactController  : ejecutando addContact() en el controlador
+2022-07-04 12:50:51.533 DEBUG 35940 --- [http-nio-8082-exec-6] o.s.web.servlet.view.RedirectView        : View name 'redirect:', model {}
+2022-07-04 12:50:51.533 DEBUG 35940 --- [http-nio-8082-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2022-07-04 12:50:51.539 DEBUG 35940 --- [http-nio-8082-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/contactManager/", parameters={}
+2022-07-04 12:50:51.539 DEBUG 35940 --- [http-nio-8082-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#getContactList(ModelMap)
+2022-07-04 12:50:51.539  INFO 35940 --- [http-nio-8082-exec-7] c.edutecno.controller.ContactController  : ejecutando getContactList() en el controlador
+2022-07-04 12:50:51.540 DEBUG 35940 --- [http-nio-8082-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-04 12:50:51.540 DEBUG 35940 --- [http-nio-8082-exec-7] o.s.web.servlet.view.JstlView            : View name 'contactManager', model {listaContact=[Contact [id=1, nombre=Fulanito, apellidoPaterno=Perez, apellidoMaterno=Simpson, direccion=Santiago, telefono=+56999999999], Contact [id=2, nombre=Fulanito, apellidoPaterno=Perez, apellidoMaterno=Feliciano, direccion=Santiago, telefono=+56999999999], Contact [id=3, nombre=Fulanito, apellidoPaterno=Perez, apellidoMaterno=Simpson, direccion=Santiago, telefono=+56999999999]]}
+2022-07-04 12:50:51.540 DEBUG 35940 --- [http-nio-8082-exec-7] o.s.web.servlet.view.JstlView            : Forwarding to [/views/contactManager.jsp]
+2022-07-04 12:50:51.542 DEBUG 35940 --- [http-nio-8082-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-04 12:50:54.930 DEBUG 35940 --- [http-nio-8082-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/contactManager/deleteContact/?id=3", parameters={masked}
+2022-07-04 12:50:54.931 DEBUG 35940 --- [http-nio-8082-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#deleteContact(ModelMap, int)
+2022-07-04 12:50:54.932  INFO 35940 --- [http-nio-8082-exec-8] c.edutecno.controller.ContactController  : ejecutando deleteContact() en el controlador
+2022-07-04 12:50:54.932 DEBUG 35940 --- [http-nio-8082-exec-8] o.s.web.servlet.view.RedirectView        : View name 'redirect:', model {}
+2022-07-04 12:50:54.932 DEBUG 35940 --- [http-nio-8082-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2022-07-04 12:50:54.937 DEBUG 35940 --- [http-nio-8082-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/contactManager/", parameters={}
+2022-07-04 12:50:54.938 DEBUG 35940 --- [http-nio-8082-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#getContactList(ModelMap)
+2022-07-04 12:50:54.938  INFO 35940 --- [http-nio-8082-exec-9] c.edutecno.controller.ContactController  : ejecutando getContactList() en el controlador
+2022-07-04 12:50:54.938 DEBUG 35940 --- [http-nio-8082-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-04 12:50:54.938 DEBUG 35940 --- [http-nio-8082-exec-9] o.s.web.servlet.view.JstlView            : View name 'contactManager', model {listaContact=[Contact [id=1, nombre=Fulanito, apellidoPaterno=Perez, apellidoMaterno=Simpson, direccion=Santiago, telefono=+56999999999], Contact [id=2, nombre=Fulanito, apellidoPaterno=Perez, apellidoMaterno=Feliciano, direccion=Santiago, telefono=+56999999999]]}
+2022-07-04 12:50:54.938 DEBUG 35940 --- [http-nio-8082-exec-9] o.s.web.servlet.view.JstlView            : Forwarding to [/views/contactManager.jsp]
+2022-07-04 12:50:54.939 DEBUG 35940 --- [http-nio-8082-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-04 12:51:04.781 DEBUG 35940 --- [http-nio-8082-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/contactManager/addContact", parameters={masked}
+2022-07-04 12:51:04.781 DEBUG 35940 --- [http-nio-8082-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#addContact(ModelMap, Contact)
+2022-07-04 12:51:04.782  INFO 35940 --- [http-nio-8082-exec-10] c.edutecno.controller.ContactController  : ejecutando addContact() en el controlador
+2022-07-04 12:51:04.782 DEBUG 35940 --- [http-nio-8082-exec-10] o.s.web.servlet.view.RedirectView        : View name 'redirect:', model {}
+2022-07-04 12:51:04.782 DEBUG 35940 --- [http-nio-8082-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2022-07-04 12:51:04.787 DEBUG 35940 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/contactManager/", parameters={}
+2022-07-04 12:51:04.788 DEBUG 35940 --- [http-nio-8082-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#getContactList(ModelMap)
+2022-07-04 12:51:04.788  INFO 35940 --- [http-nio-8082-exec-1] c.edutecno.controller.ContactController  : ejecutando getContactList() en el controlador
+2022-07-04 12:51:04.788 DEBUG 35940 --- [http-nio-8082-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-04 12:51:04.788 DEBUG 35940 --- [http-nio-8082-exec-1] o.s.web.servlet.view.JstlView            : View name 'contactManager', model {listaContact=[Contact [id=1, nombre=Fulanito, apellidoPaterno=Perez, apellidoMaterno=Simpson, direccion=Santiago, telefono=+56999999999], Contact [id=2, nombre=Fulanito, apellidoPaterno=Perez, apellidoMaterno=Feliciano, direccion=Santiago, telefono=+56999999999], Contact [id=3, nombre=Fulanito, apellidoPaterno=Perez, apellidoMaterno=Feliciano, direccion=Santiago, telefono=+56999999999]]}
+2022-07-04 12:51:04.788 DEBUG 35940 --- [http-nio-8082-exec-1] o.s.web.servlet.view.JstlView            : Forwarding to [/views/contactManager.jsp]
+2022-07-04 12:51:04.791 DEBUG 35940 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-04 12:51:08.180 DEBUG 35940 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/contactManager/deleteContact/?id=1", parameters={masked}
+2022-07-04 12:51:08.180 DEBUG 35940 --- [http-nio-8082-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#deleteContact(ModelMap, int)
+2022-07-04 12:51:08.180  INFO 35940 --- [http-nio-8082-exec-2] c.edutecno.controller.ContactController  : ejecutando deleteContact() en el controlador
+2022-07-04 12:51:08.181 DEBUG 35940 --- [http-nio-8082-exec-2] o.s.web.servlet.view.RedirectView        : View name 'redirect:', model {}
+2022-07-04 12:51:08.181 DEBUG 35940 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2022-07-04 12:51:08.185 DEBUG 35940 --- [http-nio-8082-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/contactManager/", parameters={}
+2022-07-04 12:51:08.186 DEBUG 35940 --- [http-nio-8082-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#getContactList(ModelMap)
+2022-07-04 12:51:08.186  INFO 35940 --- [http-nio-8082-exec-3] c.edutecno.controller.ContactController  : ejecutando getContactList() en el controlador
+2022-07-04 12:51:08.186 DEBUG 35940 --- [http-nio-8082-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-04 12:51:08.186 DEBUG 35940 --- [http-nio-8082-exec-3] o.s.web.servlet.view.JstlView            : View name 'contactManager', model {listaContact=[Contact [id=2, nombre=Fulanito, apellidoPaterno=Perez, apellidoMaterno=Feliciano, direccion=Santiago, telefono=+56999999999], Contact [id=3, nombre=Fulanito, apellidoPaterno=Perez, apellidoMaterno=Feliciano, direccion=Santiago, telefono=+56999999999]]}
+2022-07-04 12:51:08.186 DEBUG 35940 --- [http-nio-8082-exec-3] o.s.web.servlet.view.JstlView            : Forwarding to [/views/contactManager.jsp]
+2022-07-04 12:51:08.187 DEBUG 35940 --- [http-nio-8082-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-04 12:51:22.990 DEBUG 35940 --- [http-nio-8082-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/contactManager/addContact", parameters={masked}
+2022-07-04 12:51:22.990 DEBUG 35940 --- [http-nio-8082-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#addContact(ModelMap, Contact)
+2022-07-04 12:51:22.990  INFO 35940 --- [http-nio-8082-exec-5] c.edutecno.controller.ContactController  : ejecutando addContact() en el controlador
+2022-07-04 12:51:22.991 DEBUG 35940 --- [http-nio-8082-exec-5] o.s.web.servlet.view.RedirectView        : View name 'redirect:', model {}
+2022-07-04 12:51:22.991 DEBUG 35940 --- [http-nio-8082-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2022-07-04 12:51:22.995 DEBUG 35940 --- [http-nio-8082-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/contactManager/", parameters={}
+2022-07-04 12:51:22.995 DEBUG 35940 --- [http-nio-8082-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#getContactList(ModelMap)
+2022-07-04 12:51:22.995  INFO 35940 --- [http-nio-8082-exec-6] c.edutecno.controller.ContactController  : ejecutando getContactList() en el controlador
+2022-07-04 12:51:22.995 DEBUG 35940 --- [http-nio-8082-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-04 12:51:22.996 DEBUG 35940 --- [http-nio-8082-exec-6] o.s.web.servlet.view.JstlView            : View name 'contactManager', model {listaContact=[Contact [id=2, nombre=Fulanito, apellidoPaterno=Perez, apellidoMaterno=Feliciano, direccion=Santiago, telefono=+56999999999], Contact [id=3, nombre=Fulanito, apellidoPaterno=Perez, apellidoMaterno=Feliciano, direccion=Santiago, telefono=+56999999999], Contact [id=3, nombre=Adrian, apellidoPaterno=Franco, apellidoMaterno=Simpson, direccion=Santiago, telefono=+1 03053638064]]}
+2022-07-04 12:51:22.996 DEBUG 35940 --- [http-nio-8082-exec-6] o.s.web.servlet.view.JstlView            : Forwarding to [/views/contactManager.jsp]
+2022-07-04 12:51:22.998 DEBUG 35940 --- [http-nio-8082-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-04 12:53:41.243  INFO 35940 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 35940 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 12:53:41.243  INFO 35940 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 12:53:41.338  INFO 35940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 12:53:41.338  INFO 35940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 12:53:41.338  INFO 35940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 12:53:41.372  INFO 35940 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 12:53:41.373  INFO 35940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 12:53:41.373  INFO 35940 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 129 ms
+2022-07-04 12:53:41.391 DEBUG 35940 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 12:53:41.397 DEBUG 35940 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 12:53:41.398 DEBUG 35940 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 12:53:41.399 DEBUG 35940 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 12:53:41.401 DEBUG 35940 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 12:53:41.407  INFO 35940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 12:53:41.412  INFO 35940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 12:53:41.414  INFO 35940 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.187 seconds (JVM running for 209.994)
+2022-07-04 12:53:41.415  INFO 35940 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-04 12:55:03.187  INFO 35940 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 35940 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 12:55:03.187  INFO 35940 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 12:55:03.267  INFO 35940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 12:55:03.268  INFO 35940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 12:55:03.268  INFO 35940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 12:55:03.298  INFO 35940 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 12:55:03.302  INFO 35940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 12:55:03.302  INFO 35940 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 114 ms
+2022-07-04 12:55:03.318 DEBUG 35940 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 12:55:03.322 DEBUG 35940 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 12:55:03.322 DEBUG 35940 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 12:55:03.323 DEBUG 35940 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 12:55:03.325 DEBUG 35940 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 12:55:03.329  INFO 35940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 12:55:03.335  INFO 35940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 12:55:03.336  INFO 35940 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.161 seconds (JVM running for 291.917)
+2022-07-04 12:55:03.336  INFO 35940 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-04 12:55:04.811  INFO 35940 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 35940 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 12:55:04.811  INFO 35940 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 12:55:04.890  INFO 35940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 12:55:04.890  INFO 35940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 12:55:04.891  INFO 35940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 12:55:04.918  INFO 35940 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 12:55:04.919  INFO 35940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 12:55:04.919  INFO 35940 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 107 ms
+2022-07-04 12:55:04.934 DEBUG 35940 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 12:55:04.940 DEBUG 35940 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 12:55:04.941 DEBUG 35940 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 12:55:04.942 DEBUG 35940 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 12:55:04.942 DEBUG 35940 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 12:55:04.947  INFO 35940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 12:55:04.952  INFO 35940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 12:55:04.954  INFO 35940 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.155 seconds (JVM running for 293.535)
+2022-07-04 12:55:04.954  INFO 35940 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-04 12:55:14.972  INFO 35940 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 35940 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 12:55:14.972  INFO 35940 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 12:55:15.061  INFO 35940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 12:55:15.061  INFO 35940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 12:55:15.061  INFO 35940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 12:55:15.092  INFO 35940 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 12:55:15.094  INFO 35940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 12:55:15.094  INFO 35940 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 121 ms
+2022-07-04 12:55:15.110 DEBUG 35940 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 12:55:15.114 DEBUG 35940 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 12:55:15.114 DEBUG 35940 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 12:55:15.115 DEBUG 35940 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 12:55:15.116 DEBUG 35940 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 12:55:15.121  INFO 35940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 12:55:15.126  INFO 35940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 12:55:15.128  INFO 35940 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.174 seconds (JVM running for 303.708)
+2022-07-04 12:55:15.129  INFO 35940 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-04 12:55:22.692  INFO 35940 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 35940 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 12:55:22.693  INFO 35940 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 12:55:22.769  INFO 35940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 12:55:22.770  INFO 35940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 12:55:22.770  INFO 35940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 12:55:22.798  INFO 35940 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 12:55:22.800  INFO 35940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 12:55:22.800  INFO 35940 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 106 ms
+2022-07-04 12:55:22.815 DEBUG 35940 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 12:55:22.820 DEBUG 35940 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 12:55:22.820 DEBUG 35940 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 12:55:22.821 DEBUG 35940 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 12:55:22.822 DEBUG 35940 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 12:55:22.826  INFO 35940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 12:55:22.831  INFO 35940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 12:55:22.833  INFO 35940 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.153 seconds (JVM running for 311.413)
+2022-07-04 12:55:22.834  INFO 35940 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-04 12:55:24.297  INFO 35940 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 35940 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 12:55:24.297  INFO 35940 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 12:55:24.371  INFO 35940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 12:55:24.371  INFO 35940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 12:55:24.371  INFO 35940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 12:55:24.400  INFO 35940 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 12:55:24.401  INFO 35940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 12:55:24.401  INFO 35940 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 103 ms
+2022-07-04 12:55:24.416 DEBUG 35940 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 12:55:24.421 DEBUG 35940 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 12:55:24.422 DEBUG 35940 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 12:55:24.423 DEBUG 35940 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 12:55:24.424 DEBUG 35940 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 12:55:24.429  INFO 35940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 12:55:24.434  INFO 35940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 12:55:24.436  INFO 35940 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.151 seconds (JVM running for 313.016)
+2022-07-04 12:55:24.436  INFO 35940 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-04 12:55:35.059  INFO 35940 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 35940 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 12:55:35.059  INFO 35940 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 12:55:35.136  INFO 35940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 12:55:35.137  INFO 35940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 12:55:35.137  INFO 35940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 12:55:35.164  INFO 35940 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 12:55:35.165  INFO 35940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 12:55:35.165  INFO 35940 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 105 ms
+2022-07-04 12:55:35.179 DEBUG 35940 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 12:55:35.183 DEBUG 35940 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 12:55:35.184 DEBUG 35940 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 12:55:35.185 DEBUG 35940 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 12:55:35.186 DEBUG 35940 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 12:55:35.190  INFO 35940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 12:55:35.195  INFO 35940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 12:55:35.197  INFO 35940 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.154 seconds (JVM running for 323.778)
+2022-07-04 12:55:35.198  INFO 35940 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-04 12:56:24.824  INFO 35940 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 35940 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 12:56:24.824  INFO 35940 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 12:56:24.898  INFO 35940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 12:56:24.898  INFO 35940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 12:56:24.898  INFO 35940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 12:56:24.924  INFO 35940 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 12:56:24.926  INFO 35940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 12:56:24.926  INFO 35940 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 101 ms
+2022-07-04 12:56:24.940 DEBUG 35940 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 12:56:24.944 DEBUG 35940 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 12:56:24.945 DEBUG 35940 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 12:56:24.946 DEBUG 35940 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 12:56:24.947 DEBUG 35940 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 12:56:24.951  INFO 35940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 12:56:24.956  INFO 35940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 12:56:24.958  INFO 35940 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.147 seconds (JVM running for 373.539)
+2022-07-04 12:56:24.959  INFO 35940 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-04 12:56:35.971  INFO 35940 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 35940 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 12:56:35.971  INFO 35940 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 12:56:36.042  INFO 35940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 12:56:36.042  INFO 35940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 12:56:36.042  INFO 35940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 12:56:36.068  INFO 35940 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 12:56:36.069  INFO 35940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 12:56:36.069  INFO 35940 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 97 ms
+2022-07-04 12:56:36.083 DEBUG 35940 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 12:56:36.087 DEBUG 35940 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 12:56:36.088 DEBUG 35940 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 12:56:36.089 DEBUG 35940 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 12:56:36.090 DEBUG 35940 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 12:56:36.094  INFO 35940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 12:56:36.098  INFO 35940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 12:56:36.100  INFO 35940 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.141 seconds (JVM running for 384.681)
+2022-07-04 12:56:36.101  INFO 35940 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-04 12:57:03.814  INFO 35940 --- [RMI TCP Connection(26)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-07-04 12:57:05.211  INFO 39532 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 39532 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 12:57:05.212  INFO 39532 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 12:57:05.235  INFO 39532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-04 12:57:05.235  INFO 39532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-04 12:57:05.701  INFO 39532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 12:57:05.707  INFO 39532 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 12:57:05.707  INFO 39532 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 12:57:05.877  INFO 39532 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 12:57:05.885  INFO 39532 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 12:57:05.885  INFO 39532 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 650 ms
+2022-07-04 12:57:05.974 DEBUG 39532 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 12:57:06.015 DEBUG 39532 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 12:57:06.017 DEBUG 39532 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 12:57:06.023 DEBUG 39532 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 12:57:06.026 DEBUG 39532 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 12:57:06.057  INFO 39532 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 12:57:06.081  INFO 39532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 12:57:06.086  INFO 39532 --- [restartedMain] com.edutecno.Application                 : Started Application in 1.088 seconds (JVM running for 1.564)
+2022-07-04 12:57:12.610  INFO 39532 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 39532 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 12:57:12.610  INFO 39532 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 12:57:12.696  INFO 39532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 12:57:12.697  INFO 39532 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 12:57:12.697  INFO 39532 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 12:57:12.729  INFO 39532 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 12:57:12.730  INFO 39532 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 12:57:12.731  INFO 39532 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 120 ms
+2022-07-04 12:57:12.752 DEBUG 39532 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 12:57:12.759 DEBUG 39532 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 12:57:12.761 DEBUG 39532 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 12:57:12.763 DEBUG 39532 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 12:57:12.765 DEBUG 39532 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 12:57:12.772  INFO 39532 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 12:57:12.778  INFO 39532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 12:57:12.780  INFO 39532 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.184 seconds (JVM running for 8.258)
+2022-07-04 12:57:12.781  INFO 39532 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-04 12:57:22.338  INFO 39532 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-04 12:57:22.339  INFO 39532 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-04 12:57:22.339 DEBUG 39532 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-07-04 12:57:22.339 DEBUG 39532 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-07-04 12:57:22.339 DEBUG 39532 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-07-04 12:57:22.339 DEBUG 39532 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4d98448a
+2022-07-04 12:57:22.340 DEBUG 39532 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1c485213
+2022-07-04 12:57:22.340 DEBUG 39532 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-07-04 12:57:22.340  INFO 39532 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-04 12:57:22.346 DEBUG 39532 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/contactManager/", parameters={}
+2022-07-04 12:57:22.350 DEBUG 39532 --- [http-nio-8082-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#getContactList(ModelMap)
+2022-07-04 12:57:22.356  INFO 39532 --- [http-nio-8082-exec-1] c.edutecno.controller.ContactController  : ejecutando getContactList() en el controlador
+2022-07-04 12:57:22.361 DEBUG 39532 --- [http-nio-8082-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-04 12:57:22.361 DEBUG 39532 --- [http-nio-8082-exec-1] o.s.web.servlet.view.JstlView            : View name 'contactManager', model {listaContact=[]}
+2022-07-04 12:57:22.363 DEBUG 39532 --- [http-nio-8082-exec-1] o.s.web.servlet.view.JstlView            : Forwarding to [/views/contactManager.jsp]
+2022-07-04 12:57:22.720 DEBUG 39532 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-04 12:57:31.052 DEBUG 39532 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/contactManager/addContact", parameters={masked}
+2022-07-04 12:57:31.053 DEBUG 39532 --- [http-nio-8082-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#addContact(ModelMap, Contact)
+2022-07-04 12:57:31.061  INFO 39532 --- [http-nio-8082-exec-2] c.edutecno.controller.ContactController  : ejecutando addContact() en el controlador
+2022-07-04 12:57:31.062 DEBUG 39532 --- [http-nio-8082-exec-2] o.s.web.servlet.view.RedirectView        : View name 'redirect:', model {}
+2022-07-04 12:57:31.062 DEBUG 39532 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2022-07-04 12:57:31.068 DEBUG 39532 --- [http-nio-8082-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/contactManager/", parameters={}
+2022-07-04 12:57:31.068 DEBUG 39532 --- [http-nio-8082-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#getContactList(ModelMap)
+2022-07-04 12:57:31.068  INFO 39532 --- [http-nio-8082-exec-3] c.edutecno.controller.ContactController  : ejecutando getContactList() en el controlador
+2022-07-04 12:57:31.068 DEBUG 39532 --- [http-nio-8082-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-04 12:57:31.069 DEBUG 39532 --- [http-nio-8082-exec-3] o.s.web.servlet.view.JstlView            : View name 'contactManager', model {listaContact=[Contact [id=1, nombre=Fulanito, apellidoPaterno=Perez, apellidoMaterno=Simpson, direccion=Santiago, telefono=+56999999999]]}
+2022-07-04 12:57:31.069 DEBUG 39532 --- [http-nio-8082-exec-3] o.s.web.servlet.view.JstlView            : Forwarding to [/views/contactManager.jsp]
+2022-07-04 12:57:31.075 DEBUG 39532 --- [http-nio-8082-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-04 12:57:38.760 DEBUG 39532 --- [http-nio-8082-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/contactManager/addContact", parameters={masked}
+2022-07-04 12:57:38.760 DEBUG 39532 --- [http-nio-8082-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#addContact(ModelMap, Contact)
+2022-07-04 12:57:38.760  INFO 39532 --- [http-nio-8082-exec-4] c.edutecno.controller.ContactController  : ejecutando addContact() en el controlador
+2022-07-04 12:57:38.761 DEBUG 39532 --- [http-nio-8082-exec-4] o.s.web.servlet.view.RedirectView        : View name 'redirect:', model {}
+2022-07-04 12:57:38.761 DEBUG 39532 --- [http-nio-8082-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2022-07-04 12:57:38.765 DEBUG 39532 --- [http-nio-8082-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/contactManager/", parameters={}
+2022-07-04 12:57:38.766 DEBUG 39532 --- [http-nio-8082-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#getContactList(ModelMap)
+2022-07-04 12:57:38.766  INFO 39532 --- [http-nio-8082-exec-5] c.edutecno.controller.ContactController  : ejecutando getContactList() en el controlador
+2022-07-04 12:57:38.766 DEBUG 39532 --- [http-nio-8082-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-04 12:57:38.766 DEBUG 39532 --- [http-nio-8082-exec-5] o.s.web.servlet.view.JstlView            : View name 'contactManager', model {listaContact=[Contact [id=1, nombre=Fulanito, apellidoPaterno=Perez, apellidoMaterno=Simpson, direccion=Santiago, telefono=+56999999999], Contact [id=2, nombre=Fulanito, apellidoPaterno=Perez, apellidoMaterno=Feliciano, direccion=Santiago, telefono=+56999999999]]}
+2022-07-04 12:57:38.766 DEBUG 39532 --- [http-nio-8082-exec-5] o.s.web.servlet.view.JstlView            : Forwarding to [/views/contactManager.jsp]
+2022-07-04 12:57:38.769 DEBUG 39532 --- [http-nio-8082-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-04 12:57:48.063 DEBUG 39532 --- [http-nio-8082-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/contactManager/addContact", parameters={masked}
+2022-07-04 12:57:48.064 DEBUG 39532 --- [http-nio-8082-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#addContact(ModelMap, Contact)
+2022-07-04 12:57:48.064  INFO 39532 --- [http-nio-8082-exec-6] c.edutecno.controller.ContactController  : ejecutando addContact() en el controlador
+2022-07-04 12:57:48.064 DEBUG 39532 --- [http-nio-8082-exec-6] o.s.web.servlet.view.RedirectView        : View name 'redirect:', model {}
+2022-07-04 12:57:48.065 DEBUG 39532 --- [http-nio-8082-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2022-07-04 12:57:48.070 DEBUG 39532 --- [http-nio-8082-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/contactManager/", parameters={}
+2022-07-04 12:57:48.070 DEBUG 39532 --- [http-nio-8082-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#getContactList(ModelMap)
+2022-07-04 12:57:48.070  INFO 39532 --- [http-nio-8082-exec-7] c.edutecno.controller.ContactController  : ejecutando getContactList() en el controlador
+2022-07-04 12:57:48.070 DEBUG 39532 --- [http-nio-8082-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-04 12:57:48.071 DEBUG 39532 --- [http-nio-8082-exec-7] o.s.web.servlet.view.JstlView            : View name 'contactManager', model {listaContact=[Contact [id=1, nombre=Fulanito, apellidoPaterno=Perez, apellidoMaterno=Simpson, direccion=Santiago, telefono=+56999999999], Contact [id=2, nombre=Fulanito, apellidoPaterno=Perez, apellidoMaterno=Feliciano, direccion=Santiago, telefono=+56999999999], Contact [id=3, nombre=Fulanito, apellidoPaterno=Perez, apellidoMaterno=Feliciano, direccion=Santiago, telefono=+56999999999]]}
+2022-07-04 12:57:48.071 DEBUG 39532 --- [http-nio-8082-exec-7] o.s.web.servlet.view.JstlView            : Forwarding to [/views/contactManager.jsp]
+2022-07-04 12:57:48.073 DEBUG 39532 --- [http-nio-8082-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-04 12:57:50.591 DEBUG 39532 --- [http-nio-8082-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/contactManager/deleteContact/?id=1", parameters={masked}
+2022-07-04 12:57:50.592 DEBUG 39532 --- [http-nio-8082-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#deleteContact(ModelMap, int)
+2022-07-04 12:57:50.594  INFO 39532 --- [http-nio-8082-exec-8] c.edutecno.controller.ContactController  : ejecutando deleteContact() en el controlador
+2022-07-04 12:57:50.594 DEBUG 39532 --- [http-nio-8082-exec-8] o.s.web.servlet.view.RedirectView        : View name 'redirect:', model {}
+2022-07-04 12:57:50.594 DEBUG 39532 --- [http-nio-8082-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2022-07-04 12:57:50.599 DEBUG 39532 --- [http-nio-8082-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/contactManager/", parameters={}
+2022-07-04 12:57:50.599 DEBUG 39532 --- [http-nio-8082-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#getContactList(ModelMap)
+2022-07-04 12:57:50.600  INFO 39532 --- [http-nio-8082-exec-9] c.edutecno.controller.ContactController  : ejecutando getContactList() en el controlador
+2022-07-04 12:57:50.600 DEBUG 39532 --- [http-nio-8082-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-04 12:57:50.600 DEBUG 39532 --- [http-nio-8082-exec-9] o.s.web.servlet.view.JstlView            : View name 'contactManager', model {listaContact=[Contact [id=2, nombre=Fulanito, apellidoPaterno=Perez, apellidoMaterno=Feliciano, direccion=Santiago, telefono=+56999999999], Contact [id=3, nombre=Fulanito, apellidoPaterno=Perez, apellidoMaterno=Feliciano, direccion=Santiago, telefono=+56999999999]]}
+2022-07-04 12:57:50.600 DEBUG 39532 --- [http-nio-8082-exec-9] o.s.web.servlet.view.JstlView            : Forwarding to [/views/contactManager.jsp]
+2022-07-04 12:57:50.600 DEBUG 39532 --- [http-nio-8082-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-04 12:57:58.743 DEBUG 39532 --- [http-nio-8082-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/contactManager/addContact", parameters={masked}
+2022-07-04 12:57:58.743 DEBUG 39532 --- [http-nio-8082-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#addContact(ModelMap, Contact)
+2022-07-04 12:57:58.744  INFO 39532 --- [http-nio-8082-exec-10] c.edutecno.controller.ContactController  : ejecutando addContact() en el controlador
+2022-07-04 12:57:58.744 DEBUG 39532 --- [http-nio-8082-exec-10] o.s.web.servlet.view.RedirectView        : View name 'redirect:', model {}
+2022-07-04 12:57:58.744 DEBUG 39532 --- [http-nio-8082-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2022-07-04 12:57:58.749 DEBUG 39532 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/contactManager/", parameters={}
+2022-07-04 12:57:58.749 DEBUG 39532 --- [http-nio-8082-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#getContactList(ModelMap)
+2022-07-04 12:57:58.750  INFO 39532 --- [http-nio-8082-exec-1] c.edutecno.controller.ContactController  : ejecutando getContactList() en el controlador
+2022-07-04 12:57:58.750 DEBUG 39532 --- [http-nio-8082-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-04 12:57:58.750 DEBUG 39532 --- [http-nio-8082-exec-1] o.s.web.servlet.view.JstlView            : View name 'contactManager', model {listaContact=[Contact [id=2, nombre=Fulanito, apellidoPaterno=Perez, apellidoMaterno=Feliciano, direccion=Santiago, telefono=+56999999999], Contact [id=3, nombre=Fulanito, apellidoPaterno=Perez, apellidoMaterno=Feliciano, direccion=Santiago, telefono=+56999999999], Contact [id=4, nombre=Fulanito, apellidoPaterno=Perez, apellidoMaterno=Simpson, direccion=Santiago, telefono=+56999999999]]}
+2022-07-04 12:57:58.750 DEBUG 39532 --- [http-nio-8082-exec-1] o.s.web.servlet.view.JstlView            : Forwarding to [/views/contactManager.jsp]
+2022-07-04 12:57:58.753 DEBUG 39532 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-04 13:02:04.224  INFO 39532 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 39532 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 13:02:04.225  INFO 39532 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 13:02:04.309  INFO 39532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 13:02:04.310  INFO 39532 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 13:02:04.310  INFO 39532 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 13:02:04.337  INFO 39532 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 13:02:04.338  INFO 39532 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 13:02:04.338  INFO 39532 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 112 ms
+2022-07-04 13:02:04.354 DEBUG 39532 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 13:02:04.358 DEBUG 39532 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 13:02:04.359 DEBUG 39532 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 13:02:04.360 DEBUG 39532 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 13:02:04.361 DEBUG 39532 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 13:02:04.366  INFO 39532 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 13:02:04.371  INFO 39532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 13:02:04.372  INFO 39532 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.161 seconds (JVM running for 299.851)
+2022-07-04 13:02:04.373  INFO 39532 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-04 13:05:44.451  INFO 39532 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 39532 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 13:05:44.451  INFO 39532 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 13:05:44.527  INFO 39532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 13:05:44.527  INFO 39532 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 13:05:44.527  INFO 39532 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 13:05:44.556  INFO 39532 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 13:05:44.557  INFO 39532 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 13:05:44.557  INFO 39532 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 105 ms
+2022-07-04 13:05:44.572 DEBUG 39532 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 13:05:44.576 DEBUG 39532 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 13:05:44.576 DEBUG 39532 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 13:05:44.577 DEBUG 39532 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 13:05:44.578 DEBUG 39532 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 13:05:44.583  INFO 39532 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 13:05:44.588  INFO 39532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 13:05:44.590  INFO 39532 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.153 seconds (JVM running for 520.069)
+2022-07-04 13:05:44.591  INFO 39532 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-04 13:05:53.560  INFO 39532 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 39532 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 13:05:53.560  INFO 39532 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 13:05:53.630  INFO 39532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 13:05:53.630  INFO 39532 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 13:05:53.631  INFO 39532 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 13:05:53.656  INFO 39532 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 13:05:53.657  INFO 39532 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 13:05:53.657  INFO 39532 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 96 ms
+2022-07-04 13:05:53.672 DEBUG 39532 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 13:05:53.676 DEBUG 39532 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 13:05:53.677 DEBUG 39532 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 13:05:53.678 DEBUG 39532 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 13:05:53.679 DEBUG 39532 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 13:05:53.683  INFO 39532 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 13:05:53.688  INFO 39532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 13:05:53.690  INFO 39532 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.142 seconds (JVM running for 529.168)
+2022-07-04 13:05:53.691  INFO 39532 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-04 13:08:34.224  INFO 39532 --- [RMI TCP Connection(27)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-07-04 13:55:40.491  INFO 5588 --- [main] com.edutecno.ApplicationTests            : Starting ApplicationTests using Java 17.0.3 on PC-FRANCO with PID 5588 (started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 13:55:40.492  INFO 5588 --- [main] com.edutecno.ApplicationTests            : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 13:55:40.513 DEBUG 5588 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@751e664e
+2022-07-04 13:55:41.145 DEBUG 5588 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 13:55:41.225 DEBUG 5588 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 13:55:41.239 DEBUG 5588 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 13:55:41.263 DEBUG 5588 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 13:55:41.275 DEBUG 5588 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 13:55:41.355  INFO 5588 --- [main] com.edutecno.ApplicationTests            : Started ApplicationTests in 1.058 seconds (JVM running for 1.775)
+2022-07-04 13:55:41.636 DEBUG 5588 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@751e664e, started on Mon Jul 04 13:55:40 CLT 2022
+2022-07-04 14:04:33.376  INFO 34392 --- [main] com.edutecno.ApplicationTests            : Starting ApplicationTests using Java 17.0.3 on PC-FRANCO with PID 34392 (started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:04:33.377  INFO 34392 --- [main] com.edutecno.ApplicationTests            : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:04:33.399 DEBUG 34392 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1827a871
+2022-07-04 14:04:34.033 DEBUG 34392 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:04:34.100 DEBUG 34392 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:04:34.111 DEBUG 34392 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 14:04:34.132 DEBUG 34392 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:04:34.144 DEBUG 34392 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:04:34.212  INFO 34392 --- [main] com.edutecno.ApplicationTests            : Started ApplicationTests in 1.036 seconds (JVM running for 1.721)
+2022-07-04 14:04:34.503 DEBUG 34392 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@1827a871, started on Mon Jul 04 14:04:33 CLT 2022
+2022-07-04 14:08:12.079  INFO 31796 --- [main] com.edutecno.ApplicationTests            : Starting ApplicationTests using Java 17.0.3 on PC-FRANCO with PID 31796 (started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:08:12.080  INFO 31796 --- [main] com.edutecno.ApplicationTests            : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:08:12.105 DEBUG 31796 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@13c612bd
+2022-07-04 14:08:12.764 DEBUG 31796 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:08:12.836 DEBUG 31796 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:08:12.846 DEBUG 31796 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 14:08:12.863 DEBUG 31796 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:08:12.873 DEBUG 31796 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:08:12.948  INFO 31796 --- [main] com.edutecno.ApplicationTests            : Started ApplicationTests in 1.068 seconds (JVM running for 1.746)
+2022-07-04 14:08:13.228 DEBUG 31796 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@13c612bd, started on Mon Jul 04 14:08:12 CLT 2022
+2022-07-04 14:12:18.062  INFO 31796 --- [main] com.edutecno.ApplicationTests            : Starting ApplicationTests using Java 17.0.3 on PC-FRANCO with PID 31796 (started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:12:18.063  INFO 31796 --- [main] com.edutecno.ApplicationTests            : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:12:18.085 DEBUG 31796 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6b739528
+2022-07-04 14:12:18.733 DEBUG 31796 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:12:18.799 DEBUG 31796 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:12:18.809 DEBUG 31796 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 14:12:18.827 DEBUG 31796 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:12:18.840 DEBUG 31796 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:12:18.908  INFO 31796 --- [main] com.edutecno.ApplicationTests            : Started ApplicationTests in 1.052 seconds (JVM running for 1.749)
+2022-07-04 14:12:19.191 DEBUG 31796 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@6b739528, started on Mon Jul 04 14:12:18 CLT 2022
+2022-07-04 14:13:50.148  INFO 39076 --- [main] com.edutecno.ApplicationTests            : Starting ApplicationTests using Java 17.0.3 on PC-FRANCO with PID 39076 (started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:13:50.149  INFO 39076 --- [main] com.edutecno.ApplicationTests            : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:13:50.170 DEBUG 39076 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@622ef26a
+2022-07-04 14:13:50.798 DEBUG 39076 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:13:50.865 DEBUG 39076 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:13:50.876 DEBUG 39076 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 14:13:50.895 DEBUG 39076 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:13:50.906 DEBUG 39076 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:13:50.985  INFO 39076 --- [main] com.edutecno.ApplicationTests            : Started ApplicationTests in 1.029 seconds (JVM running for 1.709)
+2022-07-04 14:13:51.260 DEBUG 39076 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@622ef26a, started on Mon Jul 04 14:13:50 CLT 2022
+2022-07-04 14:15:14.734  INFO 28924 --- [main] com.edutecno.ApplicationTests            : Starting ApplicationTests using Java 17.0.3 on PC-FRANCO with PID 28924 (started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:15:14.735  INFO 28924 --- [main] com.edutecno.ApplicationTests            : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:15:14.756 DEBUG 28924 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@622ef26a
+2022-07-04 14:15:15.371 DEBUG 28924 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:15:15.437 DEBUG 28924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:15:15.447 DEBUG 28924 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 14:15:15.466 DEBUG 28924 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:15:15.477 DEBUG 28924 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:15:15.545  INFO 28924 --- [main] com.edutecno.ApplicationTests            : Started ApplicationTests in 1.007 seconds (JVM running for 1.705)
+2022-07-04 14:15:15.813 DEBUG 28924 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@622ef26a, started on Mon Jul 04 14:15:14 CLT 2022
+2022-07-04 14:15:57.516  INFO 38444 --- [main] com.edutecno.ApplicationTests            : Starting ApplicationTests using Java 17.0.3 on PC-FRANCO with PID 38444 (started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:15:57.517  INFO 38444 --- [main] com.edutecno.ApplicationTests            : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:15:57.539 DEBUG 38444 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3153ddfc
+2022-07-04 14:15:58.202 DEBUG 38444 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:15:58.277 DEBUG 38444 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:15:58.288 DEBUG 38444 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 14:15:58.309 DEBUG 38444 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:15:58.319 DEBUG 38444 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:15:58.394  INFO 38444 --- [main] com.edutecno.ApplicationTests            : Started ApplicationTests in 1.073 seconds (JVM running for 1.86)
+2022-07-04 14:15:58.679 DEBUG 38444 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@3153ddfc, started on Mon Jul 04 14:15:57 CLT 2022
+2022-07-04 14:20:16.555  INFO 39440 --- [main] com.edutecno.ApplicationTests            : Starting ApplicationTests using Java 17.0.3 on PC-FRANCO with PID 39440 (started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:20:16.556  INFO 39440 --- [main] com.edutecno.ApplicationTests            : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:20:16.576 DEBUG 39440 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@622ef26a
+2022-07-04 14:20:17.214 DEBUG 39440 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:20:17.281 DEBUG 39440 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:20:17.291 DEBUG 39440 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 14:20:17.312 DEBUG 39440 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:20:17.322 DEBUG 39440 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:20:17.395  INFO 39440 --- [main] com.edutecno.ApplicationTests            : Started ApplicationTests in 1.036 seconds (JVM running for 1.757)
+2022-07-04 14:20:17.646  INFO 39440 --- [main] com.edutecno.ApplicationTests            : ejecutando testObtenerLista()
+2022-07-04 14:20:17.658  INFO 39440 --- [main] com.edutecno.ApplicationTests            : ejecutando testNotNull()
+2022-07-04 14:20:17.662  INFO 39440 --- [main] com.edutecno.ApplicationTests            : ejecutando testAddContact()
+2022-07-04 14:20:17.665  INFO 39440 --- [main] com.edutecno.ApplicationTests            : ejecutando testDeleteContact
+2022-07-04 14:20:17.670 DEBUG 39440 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@622ef26a, started on Mon Jul 04 14:20:16 CLT 2022
+2022-07-04 14:32:00.445  INFO 43900 --- [main] com.edutecno.ApplicationTests            : Starting ApplicationTests using Java 17.0.3 on PC-FRANCO with PID 43900 (started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:32:00.446  INFO 43900 --- [main] com.edutecno.ApplicationTests            : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:32:00.467 DEBUG 43900 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@622ef26a
+2022-07-04 14:32:01.115 DEBUG 43900 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:32:01.185 DEBUG 43900 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:32:01.195 DEBUG 43900 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 14:32:01.213 DEBUG 43900 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:32:01.223 DEBUG 43900 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:32:01.298  INFO 43900 --- [main] com.edutecno.ApplicationTests            : Started ApplicationTests in 1.052 seconds (JVM running for 1.817)
+2022-07-04 14:32:01.572  INFO 43900 --- [main] com.edutecno.ApplicationTests            : ejecutando testObtenerLista()
+2022-07-04 14:32:01.584  INFO 43900 --- [main] com.edutecno.ApplicationTests            : ejecutando testNotNull()
+2022-07-04 14:32:01.587  INFO 43900 --- [main] com.edutecno.ApplicationTests            : ejecutando testAddContact()
+2022-07-04 14:32:01.590  INFO 43900 --- [main] com.edutecno.ApplicationTests            : ejecutando testDeleteContact
+2022-07-04 14:32:01.596 DEBUG 43900 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@622ef26a, started on Mon Jul 04 14:32:00 CLT 2022
+2022-07-04 14:33:41.056  INFO 39104 --- [main] com.edutecno.ApplicationTests            : Starting ApplicationTests using Java 17.0.3 on PC-FRANCO with PID 39104 (started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:33:41.057  INFO 39104 --- [main] com.edutecno.ApplicationTests            : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:33:41.078 DEBUG 39104 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@622ef26a
+2022-07-04 14:33:41.690 DEBUG 39104 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:33:41.755 DEBUG 39104 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:33:41.765 DEBUG 39104 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 14:33:41.782 DEBUG 39104 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:33:41.792 DEBUG 39104 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:33:41.862  INFO 39104 --- [main] com.edutecno.ApplicationTests            : Started ApplicationTests in 0.997 seconds (JVM running for 1.668)
+2022-07-04 14:33:42.123  INFO 39104 --- [main] com.edutecno.ApplicationTests            : ejecutando testObtenerLista()
+2022-07-04 14:33:42.135  INFO 39104 --- [main] com.edutecno.ApplicationTests            : ejecutando testNotNull()
+2022-07-04 14:33:42.137  INFO 39104 --- [main] com.edutecno.ApplicationTests            : ejecutando testAddContact()
+2022-07-04 14:33:42.141  INFO 39104 --- [main] com.edutecno.ApplicationTests            : ejecutando testDeleteContact
+2022-07-04 14:33:42.147 DEBUG 39104 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@622ef26a, started on Mon Jul 04 14:33:41 CLT 2022
+2022-07-04 14:34:57.048  INFO 41940 --- [main] com.edutecno.ApplicationTests            : Starting ApplicationTests using Java 17.0.3 on PC-FRANCO with PID 41940 (started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:34:57.049  INFO 41940 --- [main] com.edutecno.ApplicationTests            : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:34:57.071 DEBUG 41940 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@622ef26a
+2022-07-04 14:34:57.704 DEBUG 41940 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:34:57.777 DEBUG 41940 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:34:57.788 DEBUG 41940 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 14:34:57.805 DEBUG 41940 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:34:57.817 DEBUG 41940 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:34:57.888  INFO 41940 --- [main] com.edutecno.ApplicationTests            : Started ApplicationTests in 1.036 seconds (JVM running for 1.788)
+2022-07-04 14:34:58.144  INFO 41940 --- [main] com.edutecno.ApplicationTests            : ejecutando testObtenerLista()
+2022-07-04 14:34:58.155  INFO 41940 --- [main] com.edutecno.ApplicationTests            : ejecutando testNotNull()
+2022-07-04 14:34:58.158  INFO 41940 --- [main] com.edutecno.ApplicationTests            : ejecutando testAddContact()
+2022-07-04 14:34:58.161  INFO 41940 --- [main] com.edutecno.ApplicationTests            : ejecutando testDeleteContact
+2022-07-04 14:34:58.167 DEBUG 41940 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@622ef26a, started on Mon Jul 04 14:34:57 CLT 2022
+2022-07-04 14:39:15.828  INFO 44008 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 44008 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:39:15.829  INFO 44008 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:39:15.853  INFO 44008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-04 14:39:15.853  INFO 44008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-04 14:39:16.323  INFO 44008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 14:39:16.330  INFO 44008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 14:39:16.330  INFO 44008 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 14:39:16.487  INFO 44008 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 14:39:16.495  INFO 44008 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 14:39:16.495  INFO 44008 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 641 ms
+2022-07-04 14:39:16.587 DEBUG 44008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:39:16.629 DEBUG 44008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:39:16.636 DEBUG 44008 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:39:16.640 DEBUG 44008 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:39:16.673  INFO 44008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 14:39:16.698  INFO 44008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 14:39:16.703  INFO 44008 --- [restartedMain] com.edutecno.Application                 : Started Application in 1.079 seconds (JVM running for 1.564)
+2022-07-04 14:39:22.156  INFO 44008 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-04 14:39:22.156  INFO 44008 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-04 14:39:22.156 DEBUG 44008 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-07-04 14:39:22.157 DEBUG 44008 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-07-04 14:39:22.157 DEBUG 44008 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-07-04 14:39:22.157 DEBUG 44008 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2f5881b4
+2022-07-04 14:39:22.157 DEBUG 44008 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@5bb60aa1
+2022-07-04 14:39:22.157 DEBUG 44008 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-07-04 14:39:22.157  INFO 44008 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-04 14:39:22.164 DEBUG 44008 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-04 14:39:22.169 DEBUG 44008 --- [http-nio-8082-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-07-04 14:39:22.169 DEBUG 44008 --- [http-nio-8082-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-07-04 14:39:22.170 DEBUG 44008 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-07-04 14:39:22.173 DEBUG 44008 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-07-04 14:39:22.175 DEBUG 44008 --- [http-nio-8082-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-07-04 14:39:22.199 DEBUG 44008 --- [http-nio-8082-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-07-04 14:39:22.202 DEBUG 44008 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-07-04 14:39:36.045 DEBUG 44008 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-04 14:39:36.045 DEBUG 44008 --- [http-nio-8082-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-07-04 14:39:36.045 DEBUG 44008 --- [http-nio-8082-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-07-04 14:39:36.045 DEBUG 44008 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-07-04 14:39:36.045 DEBUG 44008 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-07-04 14:39:36.046 DEBUG 44008 --- [http-nio-8082-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-07-04 14:39:36.057 DEBUG 44008 --- [http-nio-8082-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-07-04 14:39:36.058 DEBUG 44008 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-07-04 14:39:47.356 DEBUG 44008 --- [http-nio-8082-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/contactManager/", parameters={}
+2022-07-04 14:39:47.357 DEBUG 44008 --- [http-nio-8082-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#getContactList(ModelMap)
+2022-07-04 14:39:47.359  INFO 44008 --- [http-nio-8082-exec-3] c.edutecno.controller.ContactController  : ejecutando getContactList() en el controlador
+2022-07-04 14:39:47.362 DEBUG 44008 --- [http-nio-8082-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-04 14:39:47.362 DEBUG 44008 --- [http-nio-8082-exec-3] o.s.web.servlet.view.JstlView            : View name 'contactManager', model {listaContact=[]}
+2022-07-04 14:39:47.364 DEBUG 44008 --- [http-nio-8082-exec-3] o.s.web.servlet.view.JstlView            : Forwarding to [/views/contactManager.jsp]
+2022-07-04 14:39:47.792 DEBUG 44008 --- [http-nio-8082-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-04 14:40:00.889  INFO 44008 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 44008 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:40:00.890  INFO 44008 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:40:00.977  INFO 44008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 14:40:00.977  INFO 44008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 14:40:00.977  INFO 44008 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 14:40:01.009  INFO 44008 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 14:40:01.010  INFO 44008 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 14:40:01.010  INFO 44008 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 119 ms
+2022-07-04 14:40:01.030 DEBUG 44008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:40:01.034 DEBUG 44008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:40:01.036 DEBUG 44008 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 14:40:01.037 DEBUG 44008 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:40:01.039 DEBUG 44008 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:40:01.046  INFO 44008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 14:40:01.051  INFO 44008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 14:40:01.053  INFO 44008 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.18 seconds (JVM running for 45.914)
+2022-07-04 14:40:01.055  INFO 44008 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-04 14:40:02.523  INFO 44008 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 44008 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:40:02.523  INFO 44008 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:40:02.601  INFO 44008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 14:40:02.602  INFO 44008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 14:40:02.602  INFO 44008 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 14:40:02.629  INFO 44008 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 14:40:02.631  INFO 44008 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 14:40:02.631  INFO 44008 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 107 ms
+2022-07-04 14:40:02.649 DEBUG 44008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:40:02.654 DEBUG 44008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:40:02.654 DEBUG 44008 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 14:40:02.655 DEBUG 44008 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:40:02.657 DEBUG 44008 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:40:02.662  INFO 44008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 14:40:02.666  INFO 44008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 14:40:02.668  INFO 44008 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.158 seconds (JVM running for 47.529)
+2022-07-04 14:40:02.669  INFO 44008 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-04 14:40:25.731  INFO 44008 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-04 14:40:25.732  INFO 44008 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-04 14:40:25.732 DEBUG 44008 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-07-04 14:40:25.732 DEBUG 44008 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-07-04 14:40:25.732 DEBUG 44008 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-07-04 14:40:25.732 DEBUG 44008 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4364115c
+2022-07-04 14:40:25.732 DEBUG 44008 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@4da3e740
+2022-07-04 14:40:25.733 DEBUG 44008 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-07-04 14:40:25.733  INFO 44008 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-04 14:40:25.733 DEBUG 44008 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-04 14:40:25.733 DEBUG 44008 --- [http-nio-8082-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ParameterizableViewController [view="/contactManager"]
+2022-07-04 14:40:25.733 DEBUG 44008 --- [http-nio-8082-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-04 14:40:25.733 DEBUG 44008 --- [http-nio-8082-exec-1] o.s.web.servlet.view.JstlView            : View name '/contactManager', model {}
+2022-07-04 14:40:25.734 DEBUG 44008 --- [http-nio-8082-exec-1] o.s.web.servlet.view.JstlView            : Forwarding to [/views//contactManager.jsp]
+2022-07-04 14:40:25.843 DEBUG 44008 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-04 14:40:31.606 DEBUG 44008 --- [http-nio-8082-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-04 14:40:31.607 DEBUG 44008 --- [http-nio-8082-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ParameterizableViewController [view="/contactManager"]
+2022-07-04 14:40:31.607 DEBUG 44008 --- [http-nio-8082-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-04 14:40:31.607 DEBUG 44008 --- [http-nio-8082-exec-4] o.s.web.servlet.view.JstlView            : View name '/contactManager', model {}
+2022-07-04 14:40:31.607 DEBUG 44008 --- [http-nio-8082-exec-4] o.s.web.servlet.view.JstlView            : Forwarding to [/views//contactManager.jsp]
+2022-07-04 14:40:31.610 DEBUG 44008 --- [http-nio-8082-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-04 14:40:39.004 DEBUG 44008 --- [http-nio-8082-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/contactManager/", parameters={}
+2022-07-04 14:40:39.004 DEBUG 44008 --- [http-nio-8082-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#getContactList(ModelMap)
+2022-07-04 14:40:39.004  INFO 44008 --- [http-nio-8082-exec-5] c.edutecno.controller.ContactController  : ejecutando getContactList() en el controlador
+2022-07-04 14:40:39.005 DEBUG 44008 --- [http-nio-8082-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-04 14:40:39.005 DEBUG 44008 --- [http-nio-8082-exec-5] o.s.web.servlet.view.JstlView            : View name 'contactManager', model {listaContact=[]}
+2022-07-04 14:40:39.005 DEBUG 44008 --- [http-nio-8082-exec-5] o.s.web.servlet.view.JstlView            : Forwarding to [/views/contactManager.jsp]
+2022-07-04 14:40:39.007 DEBUG 44008 --- [http-nio-8082-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-04 14:41:00.093 DEBUG 44008 --- [http-nio-8082-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-04 14:41:00.094 DEBUG 44008 --- [http-nio-8082-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ParameterizableViewController [view="/contactManager"]
+2022-07-04 14:41:00.094 DEBUG 44008 --- [http-nio-8082-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-04 14:41:00.094 DEBUG 44008 --- [http-nio-8082-exec-6] o.s.web.servlet.view.JstlView            : View name '/contactManager', model {}
+2022-07-04 14:41:00.094 DEBUG 44008 --- [http-nio-8082-exec-6] o.s.web.servlet.view.JstlView            : Forwarding to [/views//contactManager.jsp]
+2022-07-04 14:41:00.096 DEBUG 44008 --- [http-nio-8082-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-04 14:41:56.493  INFO 44008 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 44008 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:41:56.494  INFO 44008 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:41:56.569  INFO 44008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 14:41:56.570  INFO 44008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 14:41:56.570  INFO 44008 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 14:41:56.598  INFO 44008 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 14:41:56.599  INFO 44008 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 14:41:56.599  INFO 44008 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 104 ms
+2022-07-04 14:41:56.614 DEBUG 44008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:41:56.618 DEBUG 44008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:41:56.619 DEBUG 44008 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/] in 'viewControllerHandlerMapping'
+2022-07-04 14:41:56.620 DEBUG 44008 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:41:56.621 DEBUG 44008 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:41:56.626  INFO 44008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 14:41:56.631  INFO 44008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 14:41:56.633  INFO 44008 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.154 seconds (JVM running for 161.494)
+2022-07-04 14:41:56.634  INFO 44008 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-04 14:42:06.668  INFO 44008 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 44008 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:42:06.668  INFO 44008 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:42:06.752  INFO 44008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 14:42:06.752  INFO 44008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 14:42:06.752  INFO 44008 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 14:42:06.780  INFO 44008 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 14:42:06.782  INFO 44008 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 14:42:06.782  INFO 44008 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 113 ms
+2022-07-04 14:42:06.797 DEBUG 44008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:42:06.802 DEBUG 44008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:42:06.803 DEBUG 44008 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:42:06.804 DEBUG 44008 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:42:06.809  INFO 44008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 14:42:06.816  INFO 44008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 14:42:06.817  INFO 44008 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.163 seconds (JVM running for 171.677)
+2022-07-04 14:42:06.818  INFO 44008 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-04 14:42:42.369  INFO 44008 --- [RMI TCP Connection(19)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-07-04 14:42:43.664  INFO 44460 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 44460 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:42:43.664  INFO 44460 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:42:43.688  INFO 44460 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-04 14:42:43.688  INFO 44460 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-04 14:42:44.123  INFO 44460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 14:42:44.130  INFO 44460 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 14:42:44.130  INFO 44460 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 14:42:44.260  INFO 44460 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 14:42:44.267  INFO 44460 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 14:42:44.267  INFO 44460 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 579 ms
+2022-07-04 14:42:44.354 DEBUG 44460 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:42:44.392 DEBUG 44460 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:42:44.399 DEBUG 44460 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:42:44.403 DEBUG 44460 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:42:44.431  INFO 44460 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 14:42:44.455  INFO 44460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 14:42:44.460  INFO 44460 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.984 seconds (JVM running for 1.398)
+2022-07-04 14:43:29.175  INFO 44460 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-07-04 14:43:30.514  INFO 42252 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 42252 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:43:30.515  INFO 42252 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:43:30.539  INFO 42252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-04 14:43:30.539  INFO 42252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-04 14:43:31.027  INFO 42252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 14:43:31.033  INFO 42252 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 14:43:31.033  INFO 42252 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 14:43:31.201  INFO 42252 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 14:43:31.208  INFO 42252 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 14:43:31.208  INFO 42252 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 668 ms
+2022-07-04 14:43:31.297 DEBUG 42252 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:43:31.338 DEBUG 42252 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:43:31.345 DEBUG 42252 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:43:31.349 DEBUG 42252 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:43:31.383  INFO 42252 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 14:43:31.408  INFO 42252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 14:43:31.415  INFO 42252 --- [restartedMain] com.edutecno.Application                 : Started Application in 1.091 seconds (JVM running for 1.512)
+2022-07-04 14:43:43.614  INFO 42252 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-04 14:43:43.614  INFO 42252 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-04 14:43:43.614 DEBUG 42252 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-07-04 14:43:43.615 DEBUG 42252 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-07-04 14:43:43.615 DEBUG 42252 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-07-04 14:43:43.615 DEBUG 42252 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5316a451
+2022-07-04 14:43:43.615 DEBUG 42252 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@2fa1679d
+2022-07-04 14:43:43.615 DEBUG 42252 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-07-04 14:43:43.615  INFO 42252 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-04 14:43:43.621 DEBUG 42252 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-04 14:43:43.626 DEBUG 42252 --- [http-nio-8082-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-07-04 14:43:43.627 DEBUG 42252 --- [http-nio-8082-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-07-04 14:43:43.627 DEBUG 42252 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-07-04 14:43:43.630 DEBUG 42252 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-07-04 14:43:43.631 DEBUG 42252 --- [http-nio-8082-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-07-04 14:43:43.652 DEBUG 42252 --- [http-nio-8082-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-07-04 14:43:43.654 DEBUG 42252 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-07-04 14:44:26.681  INFO 42252 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 42252 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:44:26.681  INFO 42252 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:44:26.765  INFO 42252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 14:44:26.766  INFO 42252 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 14:44:26.766  INFO 42252 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 14:44:26.797  INFO 42252 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 14:44:26.799  INFO 42252 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 14:44:26.799  INFO 42252 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 117 ms
+2022-07-04 14:44:26.817 DEBUG 42252 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:44:26.823 DEBUG 42252 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:44:26.824 DEBUG 42252 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:44:26.826 DEBUG 42252 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:44:26.832  INFO 42252 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 14:44:26.837  INFO 42252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 14:44:26.839  INFO 42252 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.174 seconds (JVM running for 56.937)
+2022-07-04 14:44:26.840  INFO 42252 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-04 14:44:36.441  INFO 42252 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 42252 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:44:36.441  INFO 42252 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:44:36.517  INFO 42252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 14:44:36.518  INFO 42252 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 14:44:36.518  INFO 42252 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 14:44:36.548  INFO 42252 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 14:44:36.549  INFO 42252 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 14:44:36.549  INFO 42252 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 106 ms
+2022-07-04 14:44:36.566 DEBUG 42252 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:44:36.571 DEBUG 42252 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:44:36.572 DEBUG 42252 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:44:36.574 DEBUG 42252 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:44:36.579  INFO 42252 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 14:44:36.585  INFO 42252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 14:44:36.587  INFO 42252 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.16 seconds (JVM running for 66.684)
+2022-07-04 14:44:36.588  INFO 42252 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-04 14:44:54.749  INFO 42252 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 42252 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:44:54.749  INFO 42252 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:44:54.833  INFO 42252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 14:44:54.833  INFO 42252 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 14:44:54.833  INFO 42252 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 14:44:54.865  INFO 42252 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 14:44:54.866  INFO 42252 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 14:44:54.866  INFO 42252 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 116 ms
+2022-07-04 14:44:54.883 DEBUG 42252 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:44:54.888 DEBUG 42252 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:44:54.889 DEBUG 42252 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:44:54.890 DEBUG 42252 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:44:54.895  INFO 42252 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 14:44:54.900  INFO 42252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 14:44:54.901  INFO 42252 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.167 seconds (JVM running for 84.999)
+2022-07-04 14:44:54.902  INFO 42252 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-04 14:44:57.563  INFO 42252 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-07-04 14:45:53.517  INFO 41788 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 41788 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:45:53.518  INFO 41788 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:45:53.542  INFO 41788 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-04 14:45:53.542  INFO 41788 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-04 14:45:53.998  INFO 41788 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 14:45:54.004  INFO 41788 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 14:45:54.004  INFO 41788 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 14:45:54.136  INFO 41788 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 14:45:54.143  INFO 41788 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 14:45:54.144  INFO 41788 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 602 ms
+2022-07-04 14:45:54.236 DEBUG 41788 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:45:54.275 DEBUG 41788 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:45:54.283 DEBUG 41788 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:45:54.287 DEBUG 41788 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:45:54.318  INFO 41788 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 14:45:54.342  INFO 41788 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 14:45:54.347  INFO 41788 --- [restartedMain] com.edutecno.Application                 : Started Application in 1.035 seconds (JVM running for 1.483)
+2022-07-04 14:46:00.255  INFO 41788 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 41788 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:46:00.256  INFO 41788 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:46:00.348  INFO 41788 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 14:46:00.348  INFO 41788 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 14:46:00.348  INFO 41788 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 14:46:00.385  INFO 41788 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 14:46:00.387  INFO 41788 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 14:46:00.387  INFO 41788 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 130 ms
+2022-07-04 14:46:00.409 DEBUG 41788 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:46:00.417 DEBUG 41788 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:46:00.419 DEBUG 41788 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:46:00.421 DEBUG 41788 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:46:00.428  INFO 41788 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 14:46:00.434  INFO 41788 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 14:46:00.437  INFO 41788 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.196 seconds (JVM running for 7.572)
+2022-07-04 14:46:00.438  INFO 41788 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-04 14:46:06.093  INFO 41788 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-04 14:46:06.094  INFO 41788 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-04 14:46:06.094 DEBUG 41788 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-07-04 14:46:06.094 DEBUG 41788 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-07-04 14:46:06.094 DEBUG 41788 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-07-04 14:46:06.095 DEBUG 41788 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@78d103cd
+2022-07-04 14:46:06.095 DEBUG 41788 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@122976c0
+2022-07-04 14:46:06.095 DEBUG 41788 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-07-04 14:46:06.096  INFO 41788 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-07-04 14:46:06.103 DEBUG 41788 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-04 14:46:06.106 DEBUG 41788 --- [http-nio-8082-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.HomeController#home()
+2022-07-04 14:46:06.117 DEBUG 41788 --- [http-nio-8082-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-04 14:46:06.117 DEBUG 41788 --- [http-nio-8082-exec-1] o.s.web.servlet.view.JstlView            : View name '/contactManager/', model {}
+2022-07-04 14:46:06.119 DEBUG 41788 --- [http-nio-8082-exec-1] o.s.web.servlet.view.JstlView            : Forwarding to [/views//contactManager/.jsp]
+2022-07-04 14:46:06.122 DEBUG 41788 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-07-04 14:46:06.122 DEBUG 41788 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-07-04 14:46:06.123 DEBUG 41788 --- [http-nio-8082-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-07-04 14:46:06.142 DEBUG 41788 --- [http-nio-8082-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-07-04 14:46:06.144 DEBUG 41788 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-07-04 14:46:09.370 DEBUG 41788 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-04 14:46:09.370 DEBUG 41788 --- [http-nio-8082-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.HomeController#home()
+2022-07-04 14:46:09.371 DEBUG 41788 --- [http-nio-8082-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-04 14:46:09.371 DEBUG 41788 --- [http-nio-8082-exec-2] o.s.web.servlet.view.JstlView            : View name '/contactManager/', model {}
+2022-07-04 14:46:09.371 DEBUG 41788 --- [http-nio-8082-exec-2] o.s.web.servlet.view.JstlView            : Forwarding to [/views//contactManager/.jsp]
+2022-07-04 14:46:09.371 DEBUG 41788 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-07-04 14:46:09.371 DEBUG 41788 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-07-04 14:46:09.372 DEBUG 41788 --- [http-nio-8082-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-07-04 14:46:09.379 DEBUG 41788 --- [http-nio-8082-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-07-04 14:46:09.380 DEBUG 41788 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-07-04 14:46:18.452 DEBUG 41788 --- [http-nio-8082-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-04 14:46:18.452 DEBUG 41788 --- [http-nio-8082-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.HomeController#home()
+2022-07-04 14:46:18.452 DEBUG 41788 --- [http-nio-8082-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-04 14:46:18.453 DEBUG 41788 --- [http-nio-8082-exec-3] o.s.web.servlet.view.JstlView            : View name '/contactManager/', model {}
+2022-07-04 14:46:18.453 DEBUG 41788 --- [http-nio-8082-exec-3] o.s.web.servlet.view.JstlView            : Forwarding to [/views//contactManager/.jsp]
+2022-07-04 14:46:18.454 DEBUG 41788 --- [http-nio-8082-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-07-04 14:46:18.454 DEBUG 41788 --- [http-nio-8082-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-07-04 14:46:18.455 DEBUG 41788 --- [http-nio-8082-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-07-04 14:46:18.464 DEBUG 41788 --- [http-nio-8082-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-07-04 14:46:18.464 DEBUG 41788 --- [http-nio-8082-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-07-04 14:46:41.541  INFO 41788 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 41788 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:46:41.541  INFO 41788 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:46:41.622  INFO 41788 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 14:46:41.622  INFO 41788 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 14:46:41.622  INFO 41788 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 14:46:41.652  INFO 41788 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 14:46:41.653  INFO 41788 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 14:46:41.653  INFO 41788 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 111 ms
+2022-07-04 14:46:41.671 DEBUG 41788 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:46:41.676 DEBUG 41788 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:46:41.678 DEBUG 41788 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:46:41.679 DEBUG 41788 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:46:41.684  INFO 41788 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 14:46:41.690  INFO 41788 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 14:46:41.692  INFO 41788 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.164 seconds (JVM running for 48.827)
+2022-07-04 14:46:41.692  INFO 41788 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-04 14:46:52.739  INFO 41788 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 41788 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:46:52.739  INFO 41788 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:46:52.816  INFO 41788 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 14:46:52.816  INFO 41788 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 14:46:52.816  INFO 41788 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 14:46:52.843  INFO 41788 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 14:46:52.845  INFO 41788 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 14:46:52.845  INFO 41788 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 104 ms
+2022-07-04 14:46:52.860 DEBUG 41788 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:46:52.865 DEBUG 41788 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:46:52.867 DEBUG 41788 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:46:52.868 DEBUG 41788 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:46:52.872  INFO 41788 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 14:46:52.878  INFO 41788 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 14:46:52.879  INFO 41788 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.152 seconds (JVM running for 60.015)
+2022-07-04 14:46:52.880  INFO 41788 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-04 14:46:54.736  INFO 41788 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-07-04 14:46:56.102  INFO 44244 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 44244 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:46:56.103  INFO 44244 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:46:56.131  INFO 44244 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-04 14:46:56.131  INFO 44244 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-04 14:46:56.585  INFO 44244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 14:46:56.591  INFO 44244 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 14:46:56.591  INFO 44244 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 14:46:56.712  INFO 44244 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 14:46:56.719  INFO 44244 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 14:46:56.719  INFO 44244 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 587 ms
+2022-07-04 14:46:56.808 DEBUG 44244 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:46:56.848 DEBUG 44244 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:46:56.856 DEBUG 44244 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:46:56.859 DEBUG 44244 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:46:56.889  INFO 44244 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 14:46:56.913  INFO 44244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 14:46:56.918  INFO 44244 --- [restartedMain] com.edutecno.Application                 : Started Application in 1.033 seconds (JVM running for 1.474)
+2022-07-04 14:47:01.377  INFO 44244 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-04 14:47:01.377  INFO 44244 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-04 14:47:01.377 DEBUG 44244 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-07-04 14:47:01.377 DEBUG 44244 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-07-04 14:47:01.377 DEBUG 44244 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-07-04 14:47:01.378 DEBUG 44244 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7e0bb3c7
+2022-07-04 14:47:01.378 DEBUG 44244 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@126ac326
+2022-07-04 14:47:01.378 DEBUG 44244 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-07-04 14:47:01.378  INFO 44244 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-04 14:47:01.384 DEBUG 44244 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-04 14:47:01.388 DEBUG 44244 --- [http-nio-8082-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.HomeController#home()
+2022-07-04 14:47:01.397 DEBUG 44244 --- [http-nio-8082-exec-1] o.s.web.servlet.view.RedirectView        : View name 'redirect:', model {}
+2022-07-04 14:47:01.397 DEBUG 44244 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2022-07-04 14:47:01.405 DEBUG 44244 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/contactManager/", parameters={}
+2022-07-04 14:47:01.405 DEBUG 44244 --- [http-nio-8082-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#getContactList(ModelMap)
+2022-07-04 14:47:01.408  INFO 44244 --- [http-nio-8082-exec-2] c.edutecno.controller.ContactController  : ejecutando getContactList() en el controlador
+2022-07-04 14:47:01.409 DEBUG 44244 --- [http-nio-8082-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-04 14:47:01.409 DEBUG 44244 --- [http-nio-8082-exec-2] o.s.web.servlet.view.JstlView            : View name 'contactManager', model {listaContact=[]}
+2022-07-04 14:47:01.412 DEBUG 44244 --- [http-nio-8082-exec-2] o.s.web.servlet.view.JstlView            : Forwarding to [/views/contactManager.jsp]
+2022-07-04 14:47:01.789 DEBUG 44244 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-04 14:48:48.107  INFO 44244 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 44244 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:48:48.107  INFO 44244 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:48:48.193  INFO 44244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 14:48:48.194  INFO 44244 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 14:48:48.194  INFO 44244 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 14:48:48.224  INFO 44244 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 14:48:48.226  INFO 44244 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 14:48:48.226  INFO 44244 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 117 ms
+2022-07-04 14:48:48.244 DEBUG 44244 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:48:48.249 DEBUG 44244 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:48:48.251 DEBUG 44244 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:48:48.253 DEBUG 44244 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:48:48.259  INFO 44244 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 14:48:48.265  INFO 44244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 14:48:48.267  INFO 44244 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.175 seconds (JVM running for 112.824)
+2022-07-04 14:48:48.268  INFO 44244 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-04 14:48:49.740  INFO 44244 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 44244 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:48:49.740  INFO 44244 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:48:49.821  INFO 44244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 14:48:49.821  INFO 44244 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 14:48:49.821  INFO 44244 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 14:48:49.851  INFO 44244 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 14:48:49.852  INFO 44244 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 14:48:49.852  INFO 44244 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 111 ms
+2022-07-04 14:48:49.869 DEBUG 44244 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:48:49.873 DEBUG 44244 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:48:49.875 DEBUG 44244 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:48:49.876 DEBUG 44244 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:48:49.881  INFO 44244 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 14:48:49.886  INFO 44244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 14:48:49.888  INFO 44244 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.161 seconds (JVM running for 114.444)
+2022-07-04 14:48:49.889  INFO 44244 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-04 14:49:46.252  INFO 44244 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 44244 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:49:46.253  INFO 44244 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:49:46.351  INFO 44244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 14:49:46.351  INFO 44244 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 14:49:46.351  INFO 44244 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 14:49:46.382  INFO 44244 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 14:49:46.384  INFO 44244 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 14:49:46.384  INFO 44244 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 130 ms
+2022-07-04 14:49:46.403 DEBUG 44244 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:49:46.408 DEBUG 44244 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:49:46.410 DEBUG 44244 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:49:46.411 DEBUG 44244 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:49:46.416  INFO 44244 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 14:49:46.421  INFO 44244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 14:49:46.423  INFO 44244 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.184 seconds (JVM running for 170.979)
+2022-07-04 14:49:46.424  INFO 44244 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-04 14:49:48.695  INFO 44244 --- [RMI TCP Connection(16)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-07-04 14:52:56.875  INFO 30872 --- [main] com.edutecno.ApplicationTests            : Starting ApplicationTests using Java 17.0.3 on PC-FRANCO with PID 30872 (started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 14:52:56.876  INFO 30872 --- [main] com.edutecno.ApplicationTests            : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 14:52:56.901 DEBUG 30872 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5987e932
+2022-07-04 14:52:57.566 DEBUG 30872 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 14:52:57.632 DEBUG 30872 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2022-07-04 14:52:57.656 DEBUG 30872 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 14:52:57.670 DEBUG 30872 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 14:52:57.737  INFO 30872 --- [main] com.edutecno.ApplicationTests            : Started ApplicationTests in 1.088 seconds (JVM running for 2.403)
+2022-07-04 14:52:58.021  INFO 30872 --- [main] com.edutecno.ApplicationTests            : ejecutando testObtenerLista()
+2022-07-04 14:52:58.032  INFO 30872 --- [main] com.edutecno.ApplicationTests            : ejecutando testNotNull()
+2022-07-04 14:52:58.034  INFO 30872 --- [main] com.edutecno.ApplicationTests            : ejecutando testAddContact()
+2022-07-04 14:52:58.037  INFO 30872 --- [main] com.edutecno.ApplicationTests            : ejecutando testDeleteContact
+2022-07-04 14:52:58.052 DEBUG 30872 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@5987e932, started on Mon Jul 04 14:52:56 CLT 2022
+2022-07-04 15:20:02.445  INFO 37684 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 37684 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 15:20:02.446  INFO 37684 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 15:20:02.469  INFO 37684 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-04 15:20:02.469  INFO 37684 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-04 15:20:02.933  INFO 37684 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 15:20:02.939  INFO 37684 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 15:20:02.939  INFO 37684 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 15:20:03.098  INFO 37684 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 15:20:03.105  INFO 37684 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 15:20:03.105  INFO 37684 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 636 ms
+2022-07-04 15:20:03.194 DEBUG 37684 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 15:20:03.232 DEBUG 37684 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2022-07-04 15:20:03.239 DEBUG 37684 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 15:20:03.243 DEBUG 37684 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 15:20:03.273  INFO 37684 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 15:20:03.296  INFO 37684 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 15:20:03.301  INFO 37684 --- [restartedMain] com.edutecno.Application                 : Started Application in 1.064 seconds (JVM running for 1.475)
+2022-07-04 15:20:10.984  INFO 37684 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-04 15:20:10.984  INFO 37684 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-04 15:20:10.984 DEBUG 37684 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-07-04 15:20:10.984 DEBUG 37684 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-07-04 15:20:10.984 DEBUG 37684 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-07-04 15:20:10.985 DEBUG 37684 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@682a489f
+2022-07-04 15:20:10.985 DEBUG 37684 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@767fb950
+2022-07-04 15:20:10.985 DEBUG 37684 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-07-04 15:20:10.985  INFO 37684 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-04 15:20:10.991 DEBUG 37684 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-04 15:20:10.994 DEBUG 37684 --- [http-nio-8082-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.HomeController#home()
+2022-07-04 15:20:11.003 DEBUG 37684 --- [http-nio-8082-exec-1] o.s.web.servlet.view.RedirectView        : View name 'redirect:', model {}
+2022-07-04 15:20:11.004 DEBUG 37684 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2022-07-04 15:20:11.013 DEBUG 37684 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/contactManager/", parameters={}
+2022-07-04 15:20:11.014 DEBUG 37684 --- [http-nio-8082-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.ContactController#getContactList(ModelMap)
+2022-07-04 15:20:11.016  INFO 37684 --- [http-nio-8082-exec-2] c.edutecno.controller.ContactController  : ejecutando getContactList() en el controlador
+2022-07-04 15:20:11.017 DEBUG 37684 --- [http-nio-8082-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-04 15:20:11.017 DEBUG 37684 --- [http-nio-8082-exec-2] o.s.web.servlet.view.JstlView            : View name 'contactManager', model {listaContact=[]}
+2022-07-04 15:20:11.021 DEBUG 37684 --- [http-nio-8082-exec-2] o.s.web.servlet.view.JstlView            : Forwarding to [/views/contactManager.jsp]
+2022-07-04 15:20:11.392 DEBUG 37684 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-04 15:26:34.213  INFO 37684 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on PC-FRANCO with PID 37684 (C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager\target\classes started by adria in C:\Users\adria\Edutecno Capacitacion\BOOTCAMP 0001 - FULL STACK JAVA - DIURNO - eclipse-workspace-cloud\M6.2-Desafio-ContactManager)
+2022-07-04 15:26:34.213  INFO 37684 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 15:26:34.310  INFO 37684 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-04 15:26:34.310  INFO 37684 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 15:26:34.310  INFO 37684 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 15:26:34.345  INFO 37684 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 15:26:34.346  INFO 37684 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 15:26:34.346  INFO 37684 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 131 ms
+2022-07-04 15:26:34.369 DEBUG 37684 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-04 15:26:34.375 DEBUG 37684 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2022-07-04 15:26:34.377 DEBUG 37684 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-04 15:26:34.379 DEBUG 37684 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-04 15:26:34.387  INFO 37684 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-04 15:26:34.392  INFO 37684 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-04 15:26:34.394  INFO 37684 --- [restartedMain] com.edutecno.Application                 : Started Application in 0.197 seconds (JVM running for 392.568)
+2022-07-04 15:26:34.395  INFO 37684 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-04 15:57:51.542  INFO 37684 --- [RMI TCP Connection(57)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
